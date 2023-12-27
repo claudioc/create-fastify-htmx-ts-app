@@ -55,14 +55,14 @@ const main = async () => {
 We didn't install any dependencies for you; use your favourite package manager to do so (i.e. "npm install").
 
 Inside that directory, you can run several commands:
-    npm run dev
-      Starts the development server.
+  npm run dev
+    Starts the development server.
 
-    npm run build
-      Builds the app for production.
+  npm run build
+    Builds the app for production.
 
-    npm start
-      Runs the built app in production mode.
+  npm start
+    Runs the built app in production mode.
 `);
 };
 
