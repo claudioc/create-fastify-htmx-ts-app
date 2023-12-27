@@ -13,7 +13,6 @@ const main = async () => {
 
   const appName = args[0];
   const root = path.resolve(appName);
-  console.log(root);
 
   if (fs.existsSync(root)) {
     console.error('The application path already exists.');
@@ -49,7 +48,7 @@ const main = async () => {
 
   fs.writeFileSync(packageJsonPath, JSON.stringify(packageJson, null, 2));
 
-  console.log(`Success! Created ${appName} at ${appName}`);
+  console.log(`Success! Created ${appName} at ${root}`);
 
   console.log(`
 We didn't install any dependencies for you; use your favourite package manager to do so (i.e. "npm install").
