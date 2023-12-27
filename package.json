@@ -1,6 +1,6 @@
 {
   "name": "create-fastify-htmx-ts-app",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Install the fastify/htmx/ts starter kit",
   "author": "Claudio Cicali <claudio.cicali@gmail.com>",
   "license": "MIT",

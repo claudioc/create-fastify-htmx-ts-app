@@ -7,11 +7,7 @@ It doesn't work on Windows machines. Feel free to fix this :)
 Usage:
 
 ```sh
-npm create fastify-htmx-ts-app my-app
+npm create fastify-htmx-ts-app@latest my-app
 # or
 npx fastify-htmx-ts-app@latest my-app
-# or
-yarn create fastify-htmx-ts-app my-app
-# or
-pnpm create fastify-htmx-ts-app my-app
 ```
