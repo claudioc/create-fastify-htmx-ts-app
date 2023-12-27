@@ -1,4 +1,4 @@
-## Create Fastify + HTMX + Ts Application
+# Create Fastify + HTMX + TypeScript Application
 
 This initializer will just download the [Fastify-HTMX-TypeScript](https://github.com/claudioc/fastify-htmx-ts-starter-kit) starter kit for you, create an application directory and prepare a clean `package.json` for you to edit.
 
