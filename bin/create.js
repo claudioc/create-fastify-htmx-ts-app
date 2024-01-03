@@ -1,6 +1,5 @@
 #! /usr/bin/env node
 const fs = require('fs');
-// import { execSync } from 'child_process';
 const path = require('path');
 const { execSync } = require('child_process');
 
@@ -8,7 +7,7 @@ const main = async () => {
   const args = process.argv.slice(2);
   if (args.length < 1) {
     console.error('Please enter the name of your new project');
-    process.exit(1); //an error occurred
+    process.exit(1);
   }
 
   const appName = args[0];
